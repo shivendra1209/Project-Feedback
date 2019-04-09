@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FLIPKART</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="form-icon.png" />
+    <link rel="stylesheet" type="text/css">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</head>
+<style>
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 80px;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.4s;
+    padding-top: 100px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+    
+    #more {
+        background-color:black;
+        margin-left: 800px;
+        padding-left:0px;
+        
+        font-size:25px;
+        cursor:pointer;
+        color:white;
+    }
+    #box{
+        background-color: aliceblue;
+        float: left;
+        margin-left: 200px;
+        padding-left: 0px;
+        padding-right: 5px;
+        height: 500px;
+        width: 700px;
+        border-bottom-style: hidden;
+        border-radius: 10px;
+        
+    }
+    #logo{
+        margin-left:0;
+        padding-top: 10px;
+        
+        width: 700px;
+        background-color: white;
+         border-bottom-style: hidden;
+        border-radius: 10px;
+
+    }
+    
+    @import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+fieldset, label { margin: 0; padding: 0; }
+body{ margin: 20px; }
+h1 { font-size: 1.5em; margin: 10px; }
+
+/****** Style Star Rating Widget *****/
+
+.rating { 
+  border: none;
+  float: left;
+}
+
+.rating > input { display: none; } 
+.rating > label:before { 
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label { 
+  color: #ddd; 
+ float: right; 
+}
+    #navbar{
+        margin: 0;
+        padding:0;
+    }
+
+
+.rating > input:checked ~ label,
+.rating:not(:checked) > label:hover, 
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } 
+
+.rating > input:checked + label:hover,
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label,
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+    
+    
+    
+    
+</style>
+<body style="background-color:darkgray;margin-top: auto" class="container-fluid">
+   
+    
+        <nav class="navbar navbar-toggleable-md row">
+  
+  
+  <div class="collapse navbar-collapse" id="navbarNavDropdown" style="background-color: black">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#" style="color: white">Home </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" style="color: white">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" style="color: white">Pricing</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" style="color: white" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Company List</a>
+        
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="initial.html">Amazon Feedback</a>
+          <a class="dropdown-item" href="flipkart.html">Flipkart Feedback</a>
+          <a class="dropdown-item" href="ajio.html">Ajio Feedback</a>
+          
+        </div>
+      </li>
+    </ul>
+  
+    <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="flip_about.html">About</a>
+  <a href="#">Services</a>
+  <a href="flipkart.html">Feedback</a>
+  <a href="#">Contact</a>
+  <div class="dropdown show">
+  <a class="btn btn-secondary dropdown-toggle" href="https://example.com" id="dropdownMenuLink" data-toggle="dropdown" style="background-color: black;border: none;float:left">Contact
+  </a>
+
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink" style="background-color:darkgray;width:400px;margin-top:50px;color: white">
+    <a class="dropdown-item" href="#" style="color: black;font-size: 20px">+91-8789878986</a>
+    <a class="dropdown-item" href="#" style="color: black;font-size: 20px">xyz@gmail.com</a>
+    <a class="dropdown-item" href="#" style="color: black;font-size: 20px" >ash9@gmail.com</a>
+    
+  </div>
+</div>
+</div>
+
+
+  <span id="more" onclick="openNav()" >&#9776; MORE</span>
+
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+</script> 
+         
+  
+  
+  </div>
+</nav>
+      <br>
+    <div id="box">
+    <div id="logo"><img src="flipkart-logo.jpg">
+   <h3 style="float: right;padding-right: 5px;background-color: white;">FLIPKART</h3><br>
+   
+   <hr></div>
+   <form>
+   <strong style="float: left;padding-left: 5px" > First Name :</strong>
+            <input type="text" name="firstname" placeholder="Name"style="background-color: white;margin-left: 50px" ><br><br>
+   <strong style="float: left;padding-left: 5px"> E-mail Address :</strong>
+            <input  type="text" name="email" placeholder="E-mail" style="background-color:white;margin-left: 20px"><br><br>
+    
+    <strong style="float: left;padding-left: 5px"> Subject :</strong>
+        <p style="margin-left: 145px">Feedback to Flipkart.com</p><br>
+            
+     <strong style="float: left;padding-left: 5px">Comments:</strong>
+            <textarea style="margin-left: 60px" name="address" rows="5" cols="20">
+            </textarea><br><br>
+        <strong style="float: left;padding-top: 5px;padding-left: 5px">Overall Rating :</strong>
+<fieldset class="rating" style="margin-left: 22px">
+    <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+    <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+    <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+    <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+    <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+    <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+    <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+    <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+    <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+    <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+</fieldset><br><br>
+       <input style="margin-left: 300px;background-color: black;color: white" type="submit" value="Submit" onclick="alert('Thank You for your Feedback.Your Feedback form has been submitted.!!')" id="shiv">
+       <button style=" background-color: black;color: white" type="reset" value="Reset">Reset</button>
+        </form>
+    </div>
+       
+
+            
+</body>
+</html>
